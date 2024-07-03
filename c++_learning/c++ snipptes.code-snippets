@@ -1,0 +1,28 @@
+{
+    "Main Function": {
+        "prefix": "mainfunc",
+        "body": [
+            "int main() {",
+            "    ${1:// Your code here}",
+            "    return 0;",
+            "}"
+        ],
+        "description": "Main function in C++"
+    },
+	"Standard Output (cout)": {
+        "prefix": "out",
+        "body": [
+            "cout << ${1:\"Your message here\"} << endl;"
+        ],
+        "description": "Standard output using std::cout"
+    },
+	"Translation unit": {
+        "prefix": "start",
+        "body": [
+            "#include <iostream>",
+			"using namespace std;",
+        ],
+        "description": "Standard output using std::cout"
+    }
+
+}
